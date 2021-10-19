@@ -1,4 +1,3 @@
 body {
-  color: #3158B1;				/*default*/
-  background: #3158B1
+    --core-header-toolbar-background: red;
 }
