@@ -165,3 +165,23 @@ page-core-mainmenu-more .ion-ios-log-out,
 page-core-mainmenu-more .ion-wp-log-out {
   color: red;
 }
+/* Background */
+ion-header ion-toolbar {
+    --core-header-toolbar-background: red;
+}
+
+/* Bottom border */
+ion-header ion-toolbar {
+    --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
+    --core-header-toolbar-border-color: blue;
+}
+
+/* Text and buttons */
+ion-header ion-toolbar {
+    --core-header-toolbar-color: blue;
+}
+
+ion-header ion-toolbar.in-toolbar h1,
+ion-header ion-toolbar.in-toolbar h2 {
+    font-weight: normal;
+}
