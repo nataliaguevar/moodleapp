@@ -1,33 +1,76 @@
-/* Background */
-ion-header ion-toolbar {
-    background-color: blue;
-    color: blue;
+.bar-side-menu {
+background-color: #197b42;
+color: #FFFFFF;
+ }
+ 
+/* MENÚ DA COLUMNA LATERAL ESQUERDA */ 
+ ion-side-menu li .item {
+background-color: #214d34;
+border-color: #b8db7c;
+color: #FFFFFF;
 }
 
-/* Bottom border */
-ion-header ion-toolbar {
-    --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
-    color: green;
+/* SEPARADOR DE SECCIÓNS NA COLUMNA LATERAL ESQUERDA */ 
+
+ion-side-menu li.item.item-divider {
+background-color: #b8db7c;
+border-color: #346A82;
 }
 
-/* Text and buttons */
-ion-header ion-toolbar {
-    color: blue;
+/* CABECEIRA DO MENÚ DA ÁREA PRINCIPAL DEREITA */ 
+.bar-content {
+background-color: #00923f;
+ }
+ .button.button-positive {
+border-color: orange;
+background-color: blue;
+color: #FFFFFF;
+ } 
+
+ /* SEPARADOR DE SECCIÓNS */ 
+ .item-divider {
+background-color: #c3e38a;
+color: #FFFFFF;
+border-color: #CCCCCC;
+ }
+
+/* ICONA “MIS CURSOS” */ 
+.ion-ionic {
+color: #ff7f00;
 }
-
-ion-header ion-toolbar.in-toolbar h1,
-ion-header ion-toolbar.in-toolbar h2 {
-   font-weight: normal;
+/* ICONA “INICIO” */ 
+.ion-home {
+color: #e8d62c;
 }
-
-body {
-    /* Background */
-    --ion-item-background: green;
-
-    /* Divider */
-    --item-divider-background: red;
-    --item-divider-color: blue;
-
-    /* Empty Divider */
-    --spacer-background: yellow;
+/* ICONA “NOTIFICACIONES” */ 
+.ion-ios-bell {
+color: #e6b348;
+}
+/* ICONA “MENSAXES” */ 
+.ion-chatbox {
+color: #b08a37;
+}
+/* ICONA “EVENTOS DE CALENDARIO” */ 
+.ion-calendar {
+color: #b6b42d;
+}
+/* ICONA “MIS ARCHIVOS” */
+.ion-folder {
+color: #787600;
+}
+/* ICONA “PÁGINA WEB” */
+.ion-earth {
+color: #15738f;
+}
+/* ICONA “AYUDA” */
+.ion-help-buoy {
+color: #128f11;
+}
+/* ICONA “CONFIGURACIÓN APLICACIÓN” */
+.ion-gear-b {
+color: #ff7f00;
+}
+/* ICONA “CAMBIAR DE SITIO” */
+.ion-log-out {
+color: #ff4419;
 }
