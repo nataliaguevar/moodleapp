@@ -3,50 +3,43 @@ background-color: #197b42;
 color: #FFFFFF;
  }
  
-/* MENÚ DA COLUMNA LATERAL ESQUERDA */ 
- ion-side-menu li .item {
+ion-side-menu li .item {
 background-color: #214d34;
 border-color: #b8db7c;
 color: #FFFFFF;
 }
-
-/* SEPARADOR DE SECCIÓNS NA COLUMNA LATERAL ESQUERDA */ 
 
 ion-side-menu li.item.item-divider {
 background-color: #b8db7c;
 border-color: #346A82;
 }
 
-/* CABECEIRA DO MENÚ DA ÁREA PRINCIPAL DEREITA */ 
 .bar-content {
 background-color: #00923f;
  }
  .button.button-positive {
-border-color: orange;
+border-color: blue;
 background-color: blue;
 color: #FFFFFF;
  } 
 
- /* SEPARADOR DE SECCIÓNS */ 
  .item-divider {
 background-color: #c3e38a;
 color: #FFFFFF;
 border-color: #CCCCCC;
  }
 
-/* ICONA “MIS CURSOS” */ 
 .ion-ionic {
 color: #ff7f00;
 }
-/* ICONA “INICIO” */ 
 .ion-home {
 color: #e8d62c;
 }
-/* ICONA “NOTIFICACIONES” */ 
+
 .ion-ios-bell {
 color: #e6b348;
 }
-/* ICONA “MENSAXES” */ 
+
 .ion-chatbox {
 color: #b08a37;
 }
