@@ -19,3 +19,15 @@ ion-header ion-toolbar.in-toolbar h1,
 ion-header ion-toolbar.in-toolbar h2 {
    font-weight: normal;
 }
+
+body {
+    /* Background */
+    --ion-item-background: green;
+
+    /* Divider */
+    --item-divider-background: red;
+    --item-divider-color: blue;
+
+    /* Empty Divider */
+    --spacer-background: yellow;
+}
