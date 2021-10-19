@@ -1,69 +1,23 @@
-.bar-side-menu {
-background-color: #197b42;
-color: #FFFFFF;
- }
- 
-ion-side-menu li .item {
-background-color: #214d34;
-border-color: #b8db7c;
-color: #FFFFFF;
+body {
+ background: #4bcaff;
 }
-
-ion-side-menu li.item.item-divider {
-background-color: #b8db7c;
-border-color: #346A82;
+h1 {
+ color: #4bcaff;
 }
-
-.bar-content {
-background-color: #00923f;
- }
- .button.button-positive {
-border-color: blue;
-background-color: blue;
-color: #FFFFFF;
- } 
-
- .item-divider {
-background-color: #c3e38a;
-color: #FFFFFF;
-border-color: #CCCCCC;
- }
-
-.ion-ionic {
-color: #ff7f00;
+h2 {
+ color: #ffffff;
+ background-color: #7a8a94;
 }
-.ion-home {
-color: #e8d62c;
+.header-main {
+ color: #4b565d;
+ background: #4bcaff;
 }
-
-.ion-ios-bell {
-color: #e6b348;
+#page-title {
+ text-shadow: none;
 }
-
-.ion-chatbox {
-color: #b08a37;
+.user-menu {
+ background: #4bcaff;
 }
-/* ICONA “EVENTOS DE CALENDARIO” */ 
-.ion-calendar {
-color: #b6b42d;
-}
-/* ICONA “MIS ARCHIVOS” */
-.ion-folder {
-color: #787600;
-}
-/* ICONA “PÁGINA WEB” */
-.ion-earth {
-color: #15738f;
-}
-/* ICONA “AYUDA” */
-.ion-help-buoy {
-color: #128f11;
-}
-/* ICONA “CONFIGURACIÓN APLICACIÓN” */
-.ion-gear-b {
-color: #ff7f00;
-}
-/* ICONA “CAMBIAR DE SITIO” */
-.ion-log-out {
-color: #ff4419;
+.user-menu header {
+ background: #4b565d
 }
