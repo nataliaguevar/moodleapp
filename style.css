@@ -1,3 +1,63 @@
-.panel.user-menu {
-    color: red;   
+body {
+  color: #3158B1;				/*default*/
+  background: #3158B1;
+}
+a {
+  color: #3158B1;				/*default*/
+}
+h1 {
+  color: #3158B1;
+}
+h2 {
+  color: #3158B1;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+  background-color: #3158B1;
+}
+.nav .nav-item a {
+  color: #3158B1;				/*default*/
+}
+#manage-accounts .account-details {
+  color: #3158B1;				/*default*/
+}
+.header-wrapper {
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);	/*default*/
+}
+.header-main {
+  color: #3158B1;
+  background: #3158B1;
+}
+#page-title {
+  text-shadow: none;
+}
+#panel-right,
+#panel-center {
+  background: #ffffff;				/*default*/
+}
+.user-menu {
+  background: #4bcaff;
+}
+
+.user-menu header h1 {
+  color: #3158B1;				/*default*/
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+}
+.user-menu h2 {
+  color: #3158B1;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+  background: #3158B1;
+  box-shadow: none;
+}
+.user-menu .nav-item > a {
+  color: #3158B1;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+}
+.user-menu .nav-item .plugin-ico,
+.user-menu .nav-item .course-ico {
+  background-color: #3158B1;
+}
+.grades .section-name {
+  color: #3158B1;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+  background-color: #7a8a94;
+  border-bottom: 1px solid #3158B1;		/*default*/
 }
