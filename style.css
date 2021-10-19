@@ -1,23 +1,23 @@
 body {
- background: #4bcaff;
+ background: #FF1313;
 }
 h1 {
- color: #4bcaff;
+ color: #FF1313;
 }
 h2 {
- color: #ffffff;
- background-color: #7a8a94;
+ color: #FF1313;
+ background-color: #FF1313;
 }
 .header-main {
- color: #4b565d;
- background: #4bcaff;
+ color: #FF1313;
+ background: #FF1313;
 }
 #page-title {
  text-shadow: none;
 }
 .user-menu {
- background: #4bcaff;
+ background: #FF1313;
 }
 .user-menu header {
- background: #4b565d
+ background: #FF1313;
 }
