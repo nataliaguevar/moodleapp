@@ -1,63 +1,75 @@
-body {
-  color: #3158B1;				/*default*/
-  background: #3158B1;
-}
-a {
-  color: #3158B1;				/*default*/
-}
-h1 {
-  color: #3158B1;
-}
-h2 {
-  color: #3158B1;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
-  background-color: #3158B1;
-}
-.nav .nav-item a {
-  color: #3158B1;				/*default*/
-}
-#manage-accounts .account-details {
-  color: #3158B1;				/*default*/
-}
 .header-wrapper {
-  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);	/*default*/
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+.header-fixed {
+  top: 0px;
+  position: fixed;
+  margin-bottom: 44px;
 }
 .header-main {
-  color: #3158B1;
-  background: #3158B1;
+  color: #ffffff;
+  height: 44px;
+  line-height: 44px;
+  overflow: hidden;
+  background: #fa8f1c;
+  border-bottom: 0;
 }
-#page-title {
-  text-shadow: none;
+.header-main .nav-main {
+  float: left;
+  width: 100%;
 }
-#panel-right,
-#panel-center {
-  background: #ffffff;				/*default*/
+.header-main .nav-main .nav-item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0;
 }
-.user-menu {
-  background: #4bcaff;
+.header-main .nav-main .nav-item > a {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
 }
-
-.user-menu header h1 {
-  color: #3158B1;				/*default*/
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+.header-main .menu-home {
+  background-image: url(../img/ico-menu.png);
 }
-.user-menu h2 {
-  color: #3158B1;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
-  background: #3158B1;
-  box-shadow: none;
+.header-main .menu-back {
+  background-image: url(../img/ico-back.png);
 }
-.user-menu .nav-item > a {
-  color: #3158B1;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
+.header-main #page-title {
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: .5px;
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
 }
-.user-menu .nav-item .plugin-ico,
-.user-menu .nav-item .course-ico {
-  background-color: #3158B1;
+.header-sub {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 44px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.grades .section-name {
-  color: #3158B1;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);	/*default*/
-  background-color: #7a8a94;
-  border-bottom: 1px solid #3158B1;		/*default*/
+.header-sub .back-row {
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: block;
+}
+.header-sub .back-row a {
+  padding: 10px;
+}
+.header-sub h2 {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.header-sub h2 .img {
+  margin-top: 5px;
+}
+.header-sub #tablet-page-title,
+.header-sub #back-arrow-title {
+  display: table;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
