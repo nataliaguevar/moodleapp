@@ -4,6 +4,9 @@
   --ion-background-color: #FF1313;
   --ion-text-color: #FF1313;
 }
+ion-button {
+  --color: #FF1313;
+}
 body {
  --ion-background-color: #FF1313;
  --ion-color-primary: #FF1313;
