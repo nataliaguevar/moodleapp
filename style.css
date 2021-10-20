@@ -3,22 +3,8 @@ body {
  --ion-text-color: #FF1313;
 }
 h1 {
- --ion-background-color: #FF1313;
  --ion-text-color: #FF1313;
 }
 h2 {
- --ion-background-color: #FF1313;
- --ion-text-color: #FF1313;
-}
-.header-main {
- --ion-background-color: #FF1313;
- --ion-text-color: #FF1313;
-}
-.user-menu {
- --ion-background-color: #FF1313;
- --ion-text-color: #FF1313;
-}
-.user-menu header {
- --ion-background-color: #FF1313;
  --ion-text-color: #FF1313;
 }
