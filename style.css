@@ -1,5 +1,5 @@
-:host{
- color: rgb(247, 7, 7);
+.ion-color-primary{
+ --ion-color-base: #ff0000!important;
 }
 body {
  --ion-background-color: #FF1313;
