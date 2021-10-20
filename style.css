@@ -1,23 +1,24 @@
 body {
- background: #FF1313;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
 h1 {
- color: #FF1313;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
 h2 {
- color: #FF1313;
- background-color: #FF1313;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
 .header-main {
- color: #FF1313;
- background: #FF1313;
-}
-#page-title {
- text-shadow: none;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
 .user-menu {
- background: #FF1313;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
 .user-menu header {
- background: #FF1313;
+ --ion-background-color: #FF1313;
+ --ion-text-color: #FF1313;
 }
