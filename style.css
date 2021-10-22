@@ -32,3 +32,8 @@ ion-side-menu li.item {
 ion-side-menu li.item.item-divider {
   background-color: #FF1313;
 }
+.toolbar-background-md,
+.toolbar-background-ios,
+.toolbar-background-wp {
+  background: #FF1313;
+}
