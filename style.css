@@ -20,3 +20,15 @@ h1 {
 h2 {
  --ion-text-color: #FF1313;
 }
+ion-side-menu li .item {
+  background-color: #FF1313;
+  border-color: #FF1313;
+  color: #FF1313;
+
+}
+ion-side-menu li.item {
+  border-color: #FF1313;
+  }
+ion-side-menu li.item.item-divider {
+  background-color: #FF1313;
+}
